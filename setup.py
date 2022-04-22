@@ -11,15 +11,15 @@ with open('metadata.json') as fr:
     metadata = json.load(fr)
 
 setuptools.setup(
-    name="",  # Name of the repository
+    name="gryphon-nct-regression-classification",  # Name of the repository
     version="0.0.1",
     author=metadata.get("author", ""),
     author_email=metadata.get("author_email", ""),
     description=metadata.get("author", ""),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",  # Repository URL or externally maintained page
+    url="https://github.com/ow-gryphon/gryphon-nct-regression-classification",  # Repository URL or externally maintained page
     packages=setuptools.find_packages(),
-    python_requires='>=3.6',
+    python_requires='>=3.7',
     install_requires=requirements,
 )
