@@ -1,4 +1,1 @@
-
-In the ./requirements.txt one should specify the dependencies between templates.
-
-in the ./template/requirements.txt one should specify only the external libraries.
+Examples using sklearn to develop OLS linear regression and logistic regression. This code also imports standardized data and model exploration functions stored in local .py files.
