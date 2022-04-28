@@ -11,8 +11,8 @@ with open('metadata.json') as fr:
     metadata = json.load(fr)
 
 setuptools.setup(
-    name="gryphon-nct-regression-classification-test-2",  # Name of the repository
-    version="0.0.3",
+    name="gryphon-nct-regression-classification",  # Name of the repository
+    version="0.0.4",
     author=metadata.get("author", ""),
     author_email=metadata.get("author_email", ""),
     description=metadata.get("author", ""),
