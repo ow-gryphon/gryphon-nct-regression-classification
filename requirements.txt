@@ -1,1 +1,1 @@
-gryphon-data-exploration
+gryphon-nct-data-exploration
